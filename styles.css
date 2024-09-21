@@ -1,0 +1,182 @@
+/* YOUR STYLES HERE */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #4b4b4b;
+}
+
+#menu {
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    text-decoration: underline;
+}
+
+#profile-pic {
+    height: 32px;
+    width: 32px;
+    border-radius: 16px;
+}
+
+#profile-pic:hover {
+    box-shadow: 0px 0px 5px #c2c2c2;
+}
+
+#store-link {
+    margin-right: auto;
+}
+
+#search {
+    margin-top: 120px;
+    text-align: center;
+}
+
+#main-logo {
+    width: 272px;
+}
+
+#search-bar {
+    height: 34px;
+    font-size: 17px;
+    border-radius: 17px;
+    border: 1px solid #c2c2c2;
+    width: 90%;
+    max-width: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+}
+
+#search-bar:hover,
+#search-bar:focus {
+    box-shadow: 0px 0px 5px #c2c2c2;
+}
+
+#search-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search-button {
+    margin: 8px;
+    padding: 8px 15px;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    border: 1px solid #4b4b4b;
+    border-radius: 4px;
+}
+
+.search-button:hover{
+    box-shadow: 0px 0px 5px #c2c2c2;
+}
+
+#profile {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.profile-page {
+    font-size: 30px;
+    background-color: #ffffff;
+    margin-top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#photos {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#georgia-tech {
+    width: 250px;
+    margin: 5px;
+}
+
+#computer-science {
+    width: 250px;
+    margin: 5px;
+}
+
+#self-portrait {
+    width: 250px;
+    margin: 5px;
+}
+
+#basketball {
+    width: 250px;
+    margin: 5px;
+}
+
+#music {
+    width: 250px;
+    margin: 5px;
+}
+
+#zenitsu {
+    width: 250px;
+    margin: 5px;
+}
+
+#back-button {
+    display: flex;
+    justify-content: center;
+}
+
+.back-button {
+    margin: 16px;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    border: 1px solid #4b4b4b;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.back-button:hover{
+    box-shadow: 0px 0px 5px #c2c2c2;
+    text-decoration: underline;
+}
+
+#hobbies-button {
+    display: flex;
+    justify-content: center;
+}
+
+.hobbies-button {
+    margin: 12px;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    border: 1px solid #4b4b4b;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.hobbies-button:hover{
+    box-shadow: 0px 0px 5px #c2c2c2;
+    text-decoration: underline;
+}
+
+#hobbies {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.hobbies-interests {
+    font-size: 30px;
+    background-color: #ffffff;
+    margin-top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
